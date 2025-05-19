@@ -19,7 +19,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://car-genie-client.vercel.app/",
+    origin: "https://car-genie-client.vercel.app",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
   })
